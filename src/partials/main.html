@@ -1,1 +1,14 @@
-<h1>I am main.html!! yay :)</h1>
+<div class="container">
+  <div class="row">
+    <h1>Pokemon Generator!</h1>
+  </div>
+  <div class="data-area three offset-by-three columns">
+    <button ng-click="newPokemon()">New Pokemon</button>
+    <h2>{{ pokeName }}</h2>
+    <img ng-src="{{pokeImage}}">
+  </div>
+  <div class="data-area three columns">
+  <button ng-click="newAbility()">New Ability</button>
+  <h2>{{ ability }}</h2>
+  </div>
+</div>
