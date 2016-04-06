@@ -1,3 +1,13 @@
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
       display: none !important;
     }
+body {
+  margin-top: 15vh;
+  text-align: center;
+}
+.data-area {
+  border: 1px solid #eeeeee;
+  padding: 20px;
+  border-radius: 10px;
+  height: 40vh;
+}
