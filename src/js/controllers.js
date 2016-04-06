@@ -1,3 +1,3 @@
-app.controller('myController', ['$scope', function($scope) {
-  $scope.greeting = "Hello World!";
+app.controller('pokemonController', ['$scope', function($scope) {
+  $scope.greeting = "I am the pokemon controller! :)";
 }]);
